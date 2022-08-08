@@ -1,11 +1,9 @@
-import { Route, Routes } from "react-router-dom";
+import React from "react";
+import LoginUser from "../pages/session/login";
 
 function App() {
   return (
-      <Routes>
-          <Route exact path="/" element={</>} />
-
-      </Routes>
+    <LoginUser></LoginUser>
 
   );
 }
